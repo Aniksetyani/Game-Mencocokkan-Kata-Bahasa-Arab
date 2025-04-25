@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mencocokkan Kata Bahasa Arab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Game Mencocokkan Kata Bahasa Arab</h1>
+    <div id="game-board">
+        <!-- Kolom Bahasa Arab -->
+        <div class="column">
+            <div class="card" onclick="selectCard(this, 'farasha')">فَرَاشَةٌ</div>
+            <div class="card" onclick="selectCard(this, 'wird')">وِرْدٌ</div>
+            <div class="card" onclick="selectCard(this, 'shajara')">شَجَرَةٌ</div>
+        </div>
+        
+        <!-- Kolom Terjemahan Bahasa Indonesia -->
+        <div class="column">
+            <div class="card" onclick="selectCard(this, 'bunga')">Bunga</div>
+            <div class="card" onclick="selectCard(this, 'kupu_kupu')">Kupu-Kupu</div>
+            <div class="card" onclick="selectCard(this, 'pohon')">Pohon</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
